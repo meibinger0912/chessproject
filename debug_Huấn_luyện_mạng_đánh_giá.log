@@ -1,0 +1,151 @@
+Loading training data...
+Loaded 3071 training examples
+Epoch 1/50 [0/2457] Loss: 0.440944
+Epoch 1 complete - Train loss: 0.177968, Validation loss: 0.067330
+Saved best model with validation loss: 0.067330
+Epoch 2/50 [0/2457] Loss: 0.062262
+Epoch 2 complete - Train loss: 0.074666, Validation loss: 0.077927
+Epoch 3/50 [0/2457] Loss: 0.076853
+Epoch 3 complete - Train loss: 0.062323, Validation loss: 0.059778
+Saved best model with validation loss: 0.059778
+Epoch 4/50 [0/2457] Loss: 0.055751
+Epoch 4 complete - Train loss: 0.053962, Validation loss: 0.057368
+Saved best model with validation loss: 0.057368
+Epoch 5/50 [0/2457] Loss: 0.055387
+Epoch 5 complete - Train loss: 0.049582, Validation loss: 0.053148
+Saved best model with validation loss: 0.053148
+Epoch 6/50 [0/2457] Loss: 0.046958
+Epoch 6 complete - Train loss: 0.046649, Validation loss: 0.050028
+Saved best model with validation loss: 0.050028
+Epoch 7/50 [0/2457] Loss: 0.047337
+Epoch 7 complete - Train loss: 0.044472, Validation loss: 0.047955
+Saved best model with validation loss: 0.047955
+Epoch 8/50 [0/2457] Loss: 0.038285
+Epoch 8 complete - Train loss: 0.042924, Validation loss: 0.046419
+Saved best model with validation loss: 0.046419
+Epoch 9/50 [0/2457] Loss: 0.037688
+Epoch 9 complete - Train loss: 0.041441, Validation loss: 0.045236
+Saved best model with validation loss: 0.045236
+Epoch 10/50 [0/2457] Loss: 0.042544
+Epoch 10 complete - Train loss: 0.040337, Validation loss: 0.044103
+Saved best model with validation loss: 0.044103
+Epoch 11/50 [0/2457] Loss: 0.038730
+Epoch 11 complete - Train loss: 0.039285, Validation loss: 0.043154
+Saved best model with validation loss: 0.043154
+Epoch 12/50 [0/2457] Loss: 0.038958
+Epoch 12 complete - Train loss: 0.038538, Validation loss: 0.042288
+Saved best model with validation loss: 0.042288
+Epoch 13/50 [0/2457] Loss: 0.035670
+Epoch 13 complete - Train loss: 0.037424, Validation loss: 0.041387
+Saved best model with validation loss: 0.041387
+Epoch 14/50 [0/2457] Loss: 0.035482
+Epoch 14 complete - Train loss: 0.036477, Validation loss: 0.040641
+Saved best model with validation loss: 0.040641
+Epoch 15/50 [0/2457] Loss: 0.038208
+Epoch 15 complete - Train loss: 0.035849, Validation loss: 0.039801
+Saved best model with validation loss: 0.039801
+Epoch 16/50 [0/2457] Loss: 0.030653
+Epoch 16 complete - Train loss: 0.035142, Validation loss: 0.039017
+Saved best model with validation loss: 0.039017
+Epoch 17/50 [0/2457] Loss: 0.039485
+Epoch 17 complete - Train loss: 0.034572, Validation loss: 0.038371
+Saved best model with validation loss: 0.038371
+Epoch 18/50 [0/2457] Loss: 0.031306
+Epoch 18 complete - Train loss: 0.033564, Validation loss: 0.037609
+Saved best model with validation loss: 0.037609
+Epoch 19/50 [0/2457] Loss: 0.031035
+Epoch 19 complete - Train loss: 0.033048, Validation loss: 0.036929
+Saved best model with validation loss: 0.036929
+Epoch 20/50 [0/2457] Loss: 0.028067
+Epoch 20 complete - Train loss: 0.032342, Validation loss: 0.036157
+Saved best model with validation loss: 0.036157
+Epoch 21/50 [0/2457] Loss: 0.029669
+Epoch 21 complete - Train loss: 0.031551, Validation loss: 0.035548
+Saved best model with validation loss: 0.035548
+Epoch 22/50 [0/2457] Loss: 0.031834
+Epoch 22 complete - Train loss: 0.030869, Validation loss: 0.034904
+Saved best model with validation loss: 0.034904
+Epoch 23/50 [0/2457] Loss: 0.027307
+Epoch 23 complete - Train loss: 0.030399, Validation loss: 0.034381
+Saved best model with validation loss: 0.034381
+Epoch 24/50 [0/2457] Loss: 0.026620
+Epoch 24 complete - Train loss: 0.029873, Validation loss: 0.033894
+Saved best model with validation loss: 0.033894
+Epoch 25/50 [0/2457] Loss: 0.029064
+Epoch 25 complete - Train loss: 0.029067, Validation loss: 0.033339
+Saved best model with validation loss: 0.033339
+Epoch 26/50 [0/2457] Loss: 0.034231
+Epoch 26 complete - Train loss: 0.028871, Validation loss: 0.032787
+Saved best model with validation loss: 0.032787
+Epoch 27/50 [0/2457] Loss: 0.033050
+Epoch 27 complete - Train loss: 0.028464, Validation loss: 0.032298
+Saved best model with validation loss: 0.032298
+Epoch 28/50 [0/2457] Loss: 0.032778
+Epoch 28 complete - Train loss: 0.027914, Validation loss: 0.031829
+Saved best model with validation loss: 0.031829
+Epoch 29/50 [0/2457] Loss: 0.025796
+Epoch 29 complete - Train loss: 0.027298, Validation loss: 0.031439
+Saved best model with validation loss: 0.031439
+Epoch 30/50 [0/2457] Loss: 0.026296
+Epoch 30 complete - Train loss: 0.026642, Validation loss: 0.030975
+Saved best model with validation loss: 0.030975
+Epoch 31/50 [0/2457] Loss: 0.027549
+Epoch 31 complete - Train loss: 0.026724, Validation loss: 0.030640
+Saved best model with validation loss: 0.030640
+Epoch 32/50 [0/2457] Loss: 0.025597
+Epoch 32 complete - Train loss: 0.026041, Validation loss: 0.030166
+Saved best model with validation loss: 0.030166
+Epoch 33/50 [0/2457] Loss: 0.024171
+Epoch 33 complete - Train loss: 0.025705, Validation loss: 0.029676
+Saved best model with validation loss: 0.029676
+Epoch 34/50 [0/2457] Loss: 0.027459
+Epoch 34 complete - Train loss: 0.025602, Validation loss: 0.030196
+Epoch 35/50 [0/2457] Loss: 0.024779
+Epoch 35 complete - Train loss: 0.025113, Validation loss: 0.029008
+Saved best model with validation loss: 0.029008
+Epoch 36/50 [0/2457] Loss: 0.022643
+Epoch 36 complete - Train loss: 0.024413, Validation loss: 0.028584
+Saved best model with validation loss: 0.028584
+Epoch 37/50 [0/2457] Loss: 0.024338
+Epoch 37 complete - Train loss: 0.023874, Validation loss: 0.028329
+Saved best model with validation loss: 0.028329
+Epoch 38/50 [0/2457] Loss: 0.026522
+Epoch 38 complete - Train loss: 0.023704, Validation loss: 0.028394
+Epoch 39/50 [0/2457] Loss: 0.021741
+Epoch 39 complete - Train loss: 0.023249, Validation loss: 0.027808
+Saved best model with validation loss: 0.027808
+Epoch 40/50 [0/2457] Loss: 0.021264
+Epoch 40 complete - Train loss: 0.022918, Validation loss: 0.027544
+Saved best model with validation loss: 0.027544
+Epoch 41/50 [0/2457] Loss: 0.021771
+Epoch 41 complete - Train loss: 0.022798, Validation loss: 0.027158
+Saved best model with validation loss: 0.027158
+Epoch 42/50 [0/2457] Loss: 0.025897
+Epoch 42 complete - Train loss: 0.022253, Validation loss: 0.026795
+Saved best model with validation loss: 0.026795
+Epoch 43/50 [0/2457] Loss: 0.023806
+Epoch 43 complete - Train loss: 0.021916, Validation loss: 0.026486
+Saved best model with validation loss: 0.026486
+Epoch 44/50 [0/2457] Loss: 0.019005
+Epoch 44 complete - Train loss: 0.021717, Validation loss: 0.026202
+Saved best model with validation loss: 0.026202
+Epoch 45/50 [0/2457] Loss: 0.020648
+Epoch 45 complete - Train loss: 0.021210, Validation loss: 0.025942
+Saved best model with validation loss: 0.025942
+Epoch 46/50 [0/2457] Loss: 0.020429
+Epoch 46 complete - Train loss: 0.020941, Validation loss: 0.025818
+Saved best model with validation loss: 0.025818
+Epoch 47/50 [0/2457] Loss: 0.019605
+Epoch 47 complete - Train loss: 0.020693, Validation loss: 0.025479
+Saved best model with validation loss: 0.025479
+Epoch 48/50 [0/2457] Loss: 0.021128
+Epoch 48 complete - Train loss: 0.020463, Validation loss: 0.025243
+Saved best model with validation loss: 0.025243
+Epoch 49/50 [0/2457] Loss: 0.019417
+Epoch 49 complete - Train loss: 0.020300, Validation loss: 0.024968
+Saved best model with validation loss: 0.024968
+Epoch 50/50 [0/2457] Loss: 0.019081
+Epoch 50 complete - Train loss: 0.019897, Validation loss: 0.024805
+Saved best model with validation loss: 0.024805
+Training complete!
+Final model saved as best_eval.pt

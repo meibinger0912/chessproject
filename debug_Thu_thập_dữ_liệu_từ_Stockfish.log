@@ -1,0 +1,1892 @@
+Loaded evaluation model from best_eval.pt
+[2025-04-24 20:47:57] Found Stockfish at: D:\Trí tuệ nhân tạo\chess project\stockfish\stockfish.exe
+[2025-04-24 20:47:57] Starting training data collection
+[2025-04-24 20:47:57] Stockfish initialized at depth/skill level 5
+[2025-04-24 20:47:57] Starting 10 games against Stockfish
+[2025-04-24 20:47:57] Game 1/10
+[2025-04-24 20:47:57] Game 1, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:47:57] Stockfish played: g8f6
+[2025-04-24 20:47:57] Game 1, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:47:57] Stockfish played: e7e6
+[2025-04-24 20:47:57] Game 1, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 0), (7, 1))
+[DEBUG] ChessDove chose move: ((5, 0), (7, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4']
+[2025-04-24 20:47:57] Stockfish played: d7d5
+[2025-04-24 20:47:57] Game 1, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:47:58] Stockfish played: d5d4
+[2025-04-24 20:47:58] Game 1, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (4, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 2), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'c3d5', 'c3b5', 'c3e4', 'c3a4', 'c3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'b2b4', 'a2a4']
+[2025-04-24 20:47:58] Stockfish played: f6e4
+[2025-04-24 20:47:58] Game 1, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:47:58] Stockfish played: c8d7
+[2025-04-24 20:47:58] Game 1, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'c1a3', 'c1b2', 'a1b1', 'b3b4', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:47:58] Stockfish played: f8b4
+[2025-04-24 20:47:58] Game 1, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'c1a3', 'c1b2', 'a1a3', 'a1a2', 'a1b1', 'a4a5', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:47:58] Stockfish played: f7f5
+[2025-04-24 20:47:58] Game 1, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 5), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 0), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3a2', 'a3a1', 'h1g1', 'c1b2', 'a4a5', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:47:58] Stockfish played: b8c6
+[2025-04-24 20:47:58] Game 1, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (4, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3a4', 'a3a2', 'a3a1', 'h1g1', 'c1b2', 'a5a6', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:47:58] Stockfish played: e8g8
+[2025-04-24 20:47:58] Game 1, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (0, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 2), (3, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3a4', 'a3a2', 'a3a1', 'h1g1', 'd1c2', 'c1b2', 'a5a6', 'c4c5', 'h2h3', 'g2g3', 'e2e3', 'h2h4', 'g2g4']
+[2025-04-24 20:47:58] Stockfish played: d8e8
+[2025-04-24 20:47:58] Game 1, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (0, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3a4', 'a3a2', 'a3a1', 'h1g1', 'd1c2', 'c1b2', 'a5a6', 'h2h3', 'g2g3', 'e2e3', 'h2h4', 'g2g4']
+[2025-04-24 20:47:58] Stockfish played: b4c5
+[2025-04-24 20:47:58] Game 1, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 1), (3, 2))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 5), (3, 4))
+[DEBUG] ChessDove chose move: ((5, 5), (3, 4))
+[DEBUG] Legal moves according to python-chess: ['a4d4', 'a4c4', 'a4b4', 'a4a3', 'a4a2', 'a4a1', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'd1c2', 'c1a3', 'c1b2', 'a5a6', 'b3b4', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'h2h4', 'g2g4']
+[2025-04-24 20:47:59] Stockfish played: c6b4
+[2025-04-24 20:47:59] Game 1, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 2), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 4), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['e5f7', 'e5d7', 'e5g6', 'e5c6', 'e5g4', 'e5c4', 'e5f3', 'e5d3', 'a4b4', 'a4a3', 'a4a2', 'a4a1', 'h1g1', 'd1c2', 'c1a3', 'c1b2', 'a5a6', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'h2h4', 'g2g4', 'f2f4']
+[2025-04-24 20:47:59] Stockfish played: d7a4
+[2025-04-24 20:47:59] Game 1, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (4, 0))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 1), (6, 1))
+[DEBUG] ChessDove chose move: ((5, 1), (6, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'd1c2', 'c1a3', 'c1b2', 'b3a4', 'a5a6', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'h2h4', 'g2g4']
+[DEBUG] AI attempted illegal move: b3b2
+[DEBUG] Replaced with random legal move: g2g4
+[2025-04-24 20:47:59] Stockfish played: a4c6
+[2025-04-24 20:47:59] Game 1, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 0), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'f1h3', 'f1g2', 'd1c2', 'c1a3', 'c1b2', 'g4f5', 'a5a6', 'g4g5', 'h2h3', 'e2e3', 'd2d3', 'h2h4']
+[2025-04-24 20:47:59] Stockfish played: f5g4
+[2025-04-24 20:47:59] Game 1, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (4, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1f1', 'd1c2', 'c1a3', 'c1b2', 'e1g1', 'a5a6', 'h2h3', 'e2e3', 'd2d3', 'h2h4']
+[2025-04-24 20:47:59] Stockfish played: b4d3
+[2025-04-24 20:47:59] Game 1, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 1), (5, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'e2d3']
+[2025-04-24 20:47:59] Stockfish played: e4f2
+[2025-04-24 20:47:59] Game 1, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (6, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (6, 5))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3c5', 'a3b4', 'a3b2', 'a3c1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1f2', 'e1e2', 'e1f1', 'd1e2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'e1g1', 'a5a6', 'b3b4', 'h2h3', 'h2h4']
+[2025-04-24 20:47:59] Stockfish played: c5a3
+[2025-04-24 20:47:59] Game 1, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 2), (5, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['g2h3', 'g2f1', 'f2g3', 'f2e2', 'f2g1', 'f2f1', 'f2e1', 'h1g1', 'h1f1', 'h1e1', 'd1e2', 'd1c2', 'd1g1', 'd1f1', 'd1e1', 'd1c1', 'd1b1', 'd1a1', 'a5a6', 'b3b4', 'h2h3', 'h2h4']
+[2025-04-24 20:47:59] Stockfish played: g4f3
+[2025-04-24 20:47:59] Game 1, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 6), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g2h3', 'g2f3', 'g2f1', 'f2g3', 'f2g1', 'f2f1', 'f2e1', 'h1g1', 'h1f1', 'h1e1', 'h1d1', 'c1c6', 'c1c5', 'c1c4', 'c1c3', 'c1a3', 'c1c2', 'c1b2', 'c1g1', 'c1f1', 'c1e1', 'c1d1', 'c1b1', 'c1a1', 'a5a6', 'b3b4', 'h2h3', 'h2h4']
+[2025-04-24 20:48:00] Stockfish played: f8f3
+[2025-04-24 20:48:00] Game 1, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 5), (6, 6))
+[DEBUG] Legal moves according to python-chess: ['f2g2', 'f2e2', 'f2g1', 'f2e1']
+[2025-04-24 20:48:00] Stockfish played: e8g6
+[2025-04-24 20:48:00] Game 1 result: -1
+[2025-04-24 20:48:00] Current stats - Wins: 0, Draws: 0, Losses: 1
+[2025-04-24 20:48:00] Game 2/10
+[2025-04-24 20:48:00] Game 2, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:00] Stockfish played: c7c5
+[2025-04-24 20:48:00] Game 2, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 2), (3, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:00] Stockfish played: d7d5
+[2025-04-24 20:48:00] Game 2, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:00] Stockfish played: b8c6
+[2025-04-24 20:48:00] Game 2, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'e1d2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:00] Stockfish played: a7a6
+[2025-04-24 20:48:00] Game 2, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 0), (2, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (3, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:00] Stockfish played: a6b5
+[2025-04-24 20:48:00] Game 2, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 0), (3, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:00] Stockfish played: b7b6
+[2025-04-24 20:48:00] Game 2, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 1), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:00] Stockfish played: b5b4
+[2025-04-24 20:48:00] Game 2, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 1), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (3, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:01] Stockfish played: a8a2
+[2025-04-24 20:48:01] Game 2, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 0), (6, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (4, 2))
+[DEBUG] Legal moves according to python-chess: ['c5e7', 'c5d6', 'c5b6', 'c5d4', 'c5b4', 'c5e3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'h2h4', 'g2g4', 'e2e4', 'c2c4']
+[2025-04-24 20:48:01] Stockfish played: b4c3
+[2025-04-24 20:48:01] Game 2, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 1), (5, 2))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((3, 2), (2, 1))
+[DEBUG] ChessDove chose move: ((3, 2), (2, 1))
+[DEBUG] Legal moves according to python-chess: ['c5e7', 'c5d6', 'c5b6', 'c5d4', 'c5b4', 'c5e3', 'c5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'e2e3', 'h2h4', 'g2g4', 'e2e4']
+[2025-04-24 20:48:01] Stockfish played: d8b6
+[2025-04-24 20:48:01] Game 2, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'e2e3', 'h2h4', 'g2g4', 'e2e4']
+[2025-04-24 20:48:01] Stockfish played: b6b8
+[2025-04-24 20:48:01] Game 2, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 1), (0, 1))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 7), (7, 6))
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'f1e2', 'd1e2', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'e3e4', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:01] Stockfish played: e7e6
+[2025-04-24 20:48:01] Game 2, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'g1h1', 'f1e2', 'd1e2', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'e3e4', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:01] Stockfish played: g8f6
+[2025-04-24 20:48:01] Game 2, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1f1', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'e3e4', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:01] Stockfish played: c8d7
+[2025-04-24 20:48:01] Game 2, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 4), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1f1', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'e4d5', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:01] Stockfish played: e6d5
+[2025-04-24 20:48:01] Game 2, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 4), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1f1', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:02] Stockfish played: f8b4
+[2025-04-24 20:48:02] Game 2, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1f1', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3d4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:02] Stockfish played: b4c3
+[2025-04-24 20:48:02] Game 2, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 1), (5, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'f3d2', 'd1d2']
+[2025-04-24 20:48:02] Stockfish played: b8a7
+[2025-04-24 20:48:02] Game 2, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (1, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['e2h5', 'e2g4', 'e2f3', 'e2f1', 'h1g1', 'h1f1', 'e1f1', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'f2f3', 'h2h4', 'g2g4', 'f2f4']
+[2025-04-24 20:48:02] Stockfish played: e8g8
+[2025-04-24 20:48:02] Game 2, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (0, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3d5', 'f3g4', 'f3e4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:02] Stockfish played: f8e8
+[2025-04-24 20:48:02] Game 2, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (0, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'f3e4', 'f3e2', 'd1e2']
+[2025-04-24 20:48:02] Stockfish played: d5e4
+[2025-04-24 20:48:02] Game 2, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1h5', 'd1g4', 'd1f3', 'd1e2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3e4', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'f2f3', 'h2h4', 'g2g4', 'f2f4']
+[2025-04-24 20:48:02] Stockfish played: a2d2
+[2025-04-24 20:48:02] Game 2, Move 23
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((6, 0), (6, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3e4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'g1h1', 'g1f1', 'e1f1', 'd3e4', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:02] Stockfish played: e4f3
+[2025-04-24 20:48:02] Game 2, Move 24
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['e1f1']
+[2025-04-24 20:48:02] Stockfish played: d2d1
+[2025-04-24 20:48:02] Game 2 result: -1
+[2025-04-24 20:48:02] Current stats - Wins: 0, Draws: 0, Losses: 2
+[2025-04-24 20:48:02] Game 3/10
+[2025-04-24 20:48:02] Game 3, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:02] Stockfish played: d7d5
+[2025-04-24 20:48:02] Game 3, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: c8f5
+[2025-04-24 20:48:03] Game 3, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 2), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'c3d5', 'c3b5', 'c3e4', 'c3a4', 'c3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: d8d5
+[2025-04-24 20:48:03] Game 3, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: d5a5
+[2025-04-24 20:48:03] Game 3, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (3, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3d2', 'd1d2', 'c1d2', 'c2c3', 'b2b4']
+[2025-04-24 20:48:03] Stockfish played: a5b6
+[2025-04-24 20:48:03] Game 3, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 0), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: f5g4
+[2025-04-24 20:48:03] Game 3, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (4, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'f1e2', 'e1e2', 'd1e2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e4e5', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: c7c5
+[2025-04-24 20:48:03] Game 3, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 2), (3, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'h1g1', 'f1e2', 'e1e2', 'e1d2', 'd1e2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e4e5', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: b8c6
+[2025-04-24 20:48:03] Game 3, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 4), (4, 5))
+[DEBUG] ChessDove chose move: ((5, 4), (4, 5))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e1g1', 'e4e5', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:03] Stockfish played: g7g6
+[2025-04-24 20:48:03] Game 3, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 6), (2, 6))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((4, 5), (7, 2))
+[DEBUG] ChessDove chose move: ((4, 5), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f4b8', 'f4c7', 'f4h6', 'f4d6', 'f4g5', 'f4e5', 'f4g3', 'f4e3', 'f4d2', 'f4c1', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e1g1', 'e4e5', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:04] Stockfish played: g4f3
+[2025-04-24 20:48:04] Game 3, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 6), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['e2f3', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'e1g1', 'g2f3', 'e4e5', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:04] Stockfish played: b6c7
+[2025-04-24 20:48:04] Game 3, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 1), (1, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1d2', 'e1f1', 'd1e2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'e1g1', 'e4e5', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:04] Stockfish played: f8g7
+[2025-04-24 20:48:04] Game 3, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (1, 6))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 5), (7, 5))
+[DEBUG] ChessDove chose move: ((6, 5), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1d2', 'e1f1', 'd1e2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a1b1', 'e1g1', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[DEBUG] AI attempted illegal move: f2f1
+[DEBUG] Replaced with random legal move: c1e3
+[2025-04-24 20:48:04] Stockfish played: c6d4
+[2025-04-24 20:48:04] Game 3, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 2), (4, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'e3h6', 'e3g5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1e2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e1g1', 'e4e5', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:04] Stockfish played: b7b6
+[2025-04-24 20:48:04] Game 3, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 1), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1e2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a1b1', 'e1g1', 'e4e5', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:04] Stockfish played: d4f3
+[2025-04-24 20:48:04] Game 3, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 3), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['e1e2', 'e1f1', 'd1f3', 'g2f3']
+[2025-04-24 20:48:04] Stockfish played: a8c8
+[2025-04-24 20:48:04] Game 3, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 0), (0, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3f7', 'f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'h1g1', 'h1f1', 'e1e2', 'e1d2', 'e1f1', 'e1d1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a1b1', 'e1g1', 'e4e5', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'a2a3', 'h2h4', 'g2g4', 'a2a4']
+[2025-04-24 20:48:04] Stockfish played: g8f6
+[2025-04-24 20:48:04] Game 3, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'h1g1', 'h1f1', 'e1e2', 'e1d2', 'e1f1', 'e1d1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a1a3', 'a1a2', 'a1b1', 'e1g1', 'e4e5', 'a4a5', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: f6d7
+[2025-04-24 20:48:05] Game 3, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 0), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['f3f7', 'f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'g1h1', 'g1f1', 'e1e2', 'e1d2', 'e1f1', 'e1d1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a1a3', 'a1a2', 'a1b1', 'e4e5', 'a4a5', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: g7c3
+[2025-04-24 20:48:05] Game 3, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 6), (5, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['e1e2', 'e1f1', 'e1d1', 'c1d2']
+[2025-04-24 20:48:05] Stockfish played: c3a1
+[2025-04-24 20:48:05] Game 3, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 2), (7, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3f7', 'f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'd2h6', 'd2g5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'e1d1', 'a5b6', 'a5a6', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: a1f6
+[2025-04-24 20:48:05] Game 3, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((7, 0), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 0), (2, 1))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'g1h1', 'g1f1', 'e1e2', 'e1d2', 'e1f1', 'e1d1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a5b6', 'a5a6', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: d7b6
+[2025-04-24 20:48:05] Game 3, Move 23
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'f3d1', 'g1h1', 'g1f1', 'e1e2', 'e1d2', 'e1f1', 'e1d1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: c7h2
+[2025-04-24 20:48:05] Game 3, Move 24
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 2), (6, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 4))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'g1h1', 'g1f1', 'g1e1', 'd1e2', 'd1d2', 'd1c2', 'd1e1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'e4e5', 'd3d4', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: e8g8
+[2025-04-24 20:48:05] Game 3, Move 25
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (0, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 3), (4, 3))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3e2', 'e1e3', 'e1e2', 'e1h1', 'e1g1', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'e4e5', 'd3d4', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: f8d8
+[2025-04-24 20:48:05] Game 3, Move 26
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (0, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 3), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3d3', 'f3c3', 'f3e2', 'e1e3', 'e1e2', 'e1h1', 'e1g1', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'e4e5', 'd4d5', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:05] Stockfish played: h2h5
+[2025-04-24 20:48:05] Game 3, Move 27
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((6, 7), (3, 7))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 2), (5, 4))
+[DEBUG] ChessDove chose move: ((7, 2), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'e1e3', 'e1e2', 'e1h1', 'e1g1', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'd5d6', 'e4e5', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:06] Stockfish played: h5e5
+[2025-04-24 20:48:06] Game 3, Move 28
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 7), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 4), (4, 5))
+[DEBUG] ChessDove chose move: ((5, 4), (4, 5))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e2', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'e1e2', 'e1h1', 'e1g1', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'd1c1', 'd5d6', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:06] Stockfish played: e5a1
+[2025-04-24 20:48:06] Game 3, Move 29
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 4), (7, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 5), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['d1e2', 'd1d2', 'd1c2', 'f4c1']
+[2025-04-24 20:48:06] Stockfish played: c5c4
+[2025-04-24 20:48:06] Game 3, Move 30
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 2), (4, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 4), (3, 4))
+[DEBUG] Legal moves according to python-chess: ['f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3h3', 'f3g3', 'f3e3', 'f3d3', 'f3c3', 'f3e2', 'e1e3', 'e1e2', 'e1h1', 'e1g1', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'b3c4', 'd5d6', 'e4e5', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:06] Stockfish played: f6e5
+[2025-04-24 20:48:06] Game 3, Move 31
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 3), (6, 4))
+[DEBUG] ChessDove chose move: ((7, 3), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f3f7', 'f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3e4', 'f3h3', 'f3g3', 'f3e3', 'f3d3', 'f3c3', 'f3e2', 'e1e5', 'e1e4', 'e1e3', 'e1e2', 'e1h1', 'e1g1', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'b3c4', 'd5d6', 'b3b4', 'g2g3', 'g2g4']
+[2025-04-24 20:48:06] Stockfish played: c4b3
+[2025-04-24 20:48:06] Game 3, Move 32
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 2), (5, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['f3f7', 'f3f6', 'f3h5', 'f3f5', 'f3g4', 'f3f4', 'f3e4', 'f3h3', 'f3g3', 'f3e3', 'f3d3', 'f3c3', 'f3b3', 'e2e3', 'e2d3', 'e2d2', 'e2f1', 'e2d1', 'e1h1', 'e1g1', 'e1f1', 'e1d1', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'd5d6', 'g2g3', 'g2g4']
+[2025-04-24 20:48:06] Stockfish played: c8c1
+[2025-04-24 20:48:06] Game 3, Move 33
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (7, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['d1e2', 'd1d2']
+[2025-04-24 20:48:06] Stockfish played: c1e1
+[2025-04-24 20:48:06] Game 3, Move 34
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((7, 2), (7, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['e2d3', 'e2d2']
+[2025-04-24 20:48:06] Stockfish played: d8d5
+[2025-04-24 20:48:06] Game 3, Move 35
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3d5']
+[2025-04-24 20:48:06] Stockfish played: a1d1
+[2025-04-24 20:48:06] Game 3 result: -1
+[2025-04-24 20:48:06] Current stats - Wins: 0, Draws: 0, Losses: 3
+[2025-04-24 20:48:06] Game 4/10
+[2025-04-24 20:48:06] Game 4, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:07] Stockfish played: d7d5
+[2025-04-24 20:48:07] Game 4, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:07] Stockfish played: d5d4
+[2025-04-24 20:48:07] Game 4, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (4, 3))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 2), (3, 3))
+[DEBUG] ChessDove chose move: ((5, 2), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'c3d5', 'c3b5', 'c3e4', 'c3a4', 'c3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:07] Stockfish played: d8d5
+[2025-04-24 20:48:07] Game 4, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 1), (7, 1))
+[DEBUG] ChessDove chose move: ((6, 1), (7, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[DEBUG] AI attempted illegal move: b2b1
+[DEBUG] Replaced with random legal move: e2e4
+[2025-04-24 20:48:07] Stockfish played: d5e4
+[2025-04-24 20:48:07] Game 4, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f1e2', 'd1e2']
+[2025-04-24 20:48:07] Stockfish played: d4d3
+[2025-04-24 20:48:07] Game 4, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 3), (5, 3))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 5), (3, 6))
+[DEBUG] ChessDove chose move: ((5, 5), (3, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e1f1', 'a1b1', 'e1g1', 'c2d3', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:07] Stockfish played: e4e2
+[2025-04-24 20:48:07] Game 4, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (6, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['d1e2']
+[2025-04-24 20:48:07] Stockfish played: d3e2
+[2025-04-24 20:48:07] Game 4, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 3), (6, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g5h7', 'g5f7', 'g5e6', 'g5e4', 'g5h3', 'g5f3', 'h1g1', 'h1f1', 'e1e2', 'a1b1', 'h2h3', 'g2g3', 'f2f3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:07] Stockfish played: b8c6
+[2025-04-24 20:48:07] Game 4, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e1e2', 'a1b1', 'h2h3', 'g2g3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:07] Stockfish played: e7e5
+[2025-04-24 20:48:07] Game 4, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e1e2', 'a1a2', 'a1b1', 'a3a4', 'h2h3', 'g2g3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'd2d4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:08] Stockfish played: c8g4
+[2025-04-24 20:48:08] Game 4, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (4, 6))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 3), (7, 3))
+[DEBUG] ChessDove chose move: ((6, 3), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e1e2', 'c1b2', 'a1a2', 'a1b1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'd2d3', 'c2c3', 'h2h4', 'd2d4', 'c2c4']
+[DEBUG] AI attempted illegal move: d2d1
+[DEBUG] Replaced with random legal move: c2c3
+[2025-04-24 20:48:08] Stockfish played: f7f6
+[2025-04-24 20:48:08] Game 4, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 5), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 0), (6, 0))
+[DEBUG] ChessDove chose move: ((7, 0), (6, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e1e2', 'c1b2', 'a1a2', 'a1b1', 'c3c4', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'd2d3', 'h2h4', 'd2d4']
+[2025-04-24 20:48:08] Stockfish played: g8e7
+[2025-04-24 20:48:08] Game 4, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (1, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (6, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a2c2', 'a2b2', 'a2a1', 'h1g1', 'h1f1', 'e1e2', 'c1b2', 'c3c4', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'd2d3', 'h2h4', 'd2d4']
+[2025-04-24 20:48:08] Stockfish played: e8d7
+[2025-04-24 20:48:08] Game 4, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (3, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'b2c2', 'b2a2', 'b2b1', 'h1g1', 'h1f1', 'e1e2', 'c3c4', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'd2d3', 'h2h4', 'd2d4']
+[2025-04-24 20:48:08] Stockfish played: c6e5
+[2025-04-24 20:48:08] Game 4, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 2), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['b2c2', 'b2a2', 'b2b1', 'h1g1', 'h1f1', 'c3c4', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'f2f3', 'd2d3', 'h2h4', 'f2f4', 'd2d4']
+[2025-04-24 20:48:08] Stockfish played: e5d3
+[2025-04-24 20:48:08] Game 4 result: -1
+[2025-04-24 20:48:08] Current stats - Wins: 0, Draws: 0, Losses: 4
+[2025-04-24 20:48:08] Game 5/10
+[2025-04-24 20:48:08] Game 5, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:08] Stockfish played: d7d5
+[2025-04-24 20:48:08] Game 5, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:08] Stockfish played: c8f5
+[2025-04-24 20:48:08] Game 5, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 2), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'c3d5', 'c3b5', 'c3e4', 'c3a4', 'c3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:09] Stockfish played: d8d5
+[2025-04-24 20:48:09] Game 5, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:09] Stockfish played: d5d7
+[2025-04-24 20:48:09] Game 5, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:09] Stockfish played: b8c6
+[2025-04-24 20:48:09] Game 5, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (2, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3a7', 'e3h6', 'e3b6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:09] Stockfish played: a7b6
+[2025-04-24 20:48:09] Game 5, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 0), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:09] Stockfish played: g8f6
+[2025-04-24 20:48:09] Game 5, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:09] Stockfish played: e7e6
+[2025-04-24 20:48:09] Game 5, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:09] Stockfish played: a8d8
+[2025-04-24 20:48:09] Game 5, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 0), (0, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'f1e2', 'e1e2', 'e1d2', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'e4f5', 'e4e5', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:09] Stockfish played: f5g6
+[2025-04-24 20:48:09] Game 5, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (2, 6))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 5), (3, 6))
+[DEBUG] ChessDove chose move: ((5, 5), (3, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'e4e5', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:10] Stockfish played: f8d6
+[2025-04-24 20:48:10] Game 5, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (2, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 6), (1, 5))
+[DEBUG] Legal moves according to python-chess: ['g5h7', 'g5f7', 'g5e6', 'g5h3', 'g5f3', 'e2h5', 'e2g4', 'e2f3', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'e4e5', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'f2f3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'f2f4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:10] Stockfish played: g6f7
+[2025-04-24 20:48:10] Game 5, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 6), (1, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['e2h5', 'e2g4', 'e2f3', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'e4e5', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'f2f3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'f2f4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:10] Stockfish played: h7h6
+[2025-04-24 20:48:10] Game 5, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 7), (2, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1d2', 'e1f1', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'e4e5', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:10] Stockfish played: d6f4
+[2025-04-24 20:48:10] Game 5, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 3), (4, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'e4e5', 'd3d4', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:10] Stockfish played: h8g8
+[2025-04-24 20:48:10] Game 5, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 7), (0, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 0), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'e4e5', 'a4a5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:10] Stockfish played: h6h5
+[2025-04-24 20:48:10] Game 5, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 7), (3, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 0), (2, 1))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'a5b6', 'a5a6', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:10] Stockfish played: f4c1
+[2025-04-24 20:48:10] Game 5, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 5), (7, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'd1c1', 'e1g1', 'b6c7', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:10] Stockfish played: c1f4
+[2025-04-24 20:48:10] Game 5, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((7, 2), (4, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e2', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'b6c7', 'e4e5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:10] Stockfish played: f6e4
+[2025-04-24 20:48:10] Game 5, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (4, 2))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'b6c7', 'd3e4', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:11] Stockfish played: e6e5
+[2025-04-24 20:48:11] Game 5, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 4), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 2), (3, 2))
+[DEBUG] Legal moves according to python-chess: ['f3h5', 'f3g4', 'f3e4', 'f3e2', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'b6c7', 'd3e4', 'c4c5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:11] Stockfish played: e4f2
+[2025-04-24 20:48:11] Game 5, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (6, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (6, 5))
+[DEBUG] Legal moves according to python-chess: ['f3c6', 'f3h5', 'f3d5', 'f3g4', 'f3e4', 'f3e2', 'h1g1', 'h1f1', 'e1f2', 'e1e2', 'e1f1', 'd1e2', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'b6c7', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:11] Stockfish played: d7d4
+[2025-04-24 20:48:11] Game 5, Move 23
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (4, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 5), (7, 4))
+[DEBUG] Legal moves according to python-chess: ['f2e2', 'f2f1', 'f2e1']
+[2025-04-24 20:48:11] Stockfish played: d4e3
+[2025-04-24 20:48:11] Game 5, Move 24
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 3), (5, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'f3e2', 'd1e2']
+[2025-04-24 20:48:11] Stockfish played: f4g3
+[2025-04-24 20:48:11] Game 5, Move 25
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 5), (5, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 7), (5, 6))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'h2g3']
+[2025-04-24 20:48:11] Stockfish played: f7e6
+[2025-04-24 20:48:11] Game 5, Move 26
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 5), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (6, 7))
+[DEBUG] Legal moves according to python-chess: ['h1h5', 'h1h4', 'h1h3', 'h1h2', 'h1g1', 'h1f1', 'e1f1', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'b6c7', 'g3g4', 'd3d4', 'b3b4']
+[2025-04-24 20:48:11] Stockfish played: e3g1
+[2025-04-24 20:48:11] Game 5, Move 27
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 4), (7, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['e1d2', 'e2f1']
+[2025-04-24 20:48:11] Stockfish played: g1h2
+[2025-04-24 20:48:11] Game 5, Move 28
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((7, 6), (6, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (6, 5))
+[DEBUG] Legal moves according to python-chess: ['f1e2', 'e1f2', 'e1e2', 'e1d2', 'd1h5', 'd1g4', 'd1f3', 'd1e2', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'b6c7', 'g3g4', 'd3d4', 'b3b4']
+[2025-04-24 20:48:12] Stockfish played: g8f8
+[2025-04-24 20:48:12] Game 5, Move 29
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (0, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['f2e3', 'f2e2', 'f2e1', 'd1f3']
+[2025-04-24 20:48:12] Stockfish played: f8f3
+[2025-04-24 20:48:12] Game 5, Move 30
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 5), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['f2f3', 'f2e2', 'f2e1']
+[2025-04-24 20:48:12] Stockfish played: h2g1
+[2025-04-24 20:48:12] Game 5, Move 31
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((6, 7), (7, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f3e4', 'f3e2', 'f1e2', 'b6c7', 'g3g4', 'd3d4', 'b3b4']
+[2025-04-24 20:48:12] Stockfish played: e6d5
+[2025-04-24 20:48:12] Game 5 result: -1
+[2025-04-24 20:48:12] Current stats - Wins: 0, Draws: 0, Losses: 5
+[2025-04-24 20:48:12] Game 6/10
+[2025-04-24 20:48:12] Game 6, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 6), (5, 5))
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:12] Stockfish played: d7d5
+[2025-04-24 20:48:12] Game 6, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 5), (4, 7))
+[DEBUG] ChessDove chose move: ((5, 5), (4, 7))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:12] Stockfish played: e7e5
+[2025-04-24 20:48:12] Game 6, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 7), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['h4g6', 'h4f5', 'h4f3', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:12] Stockfish played: e5e4
+[2025-04-24 20:48:12] Game 6, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 4), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:12] Stockfish played: b8c6
+[2025-04-24 20:48:12] Game 6, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'd2d4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:12] Stockfish played: e4f3
+[2025-04-24 20:48:12] Game 6, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['a3b5', 'a3c4', 'a3b1', 'h1g1', 'c1b2', 'a1b1', 'g2f3', 'e2f3', 'b3b4', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4']
+[2025-04-24 20:48:12] Stockfish played: f8e7
+[2025-04-24 20:48:12] Game 6, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (1, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 6))
+[DEBUG] Legal moves according to python-chess: ['a3b5', 'a3c4', 'a3b1', 'h1g1', 'f1h3', 'f1g2', 'c1b2', 'a1b1', 'f3f4', 'b3b4', 'h2h3', 'e2e3', 'd2d3', 'c2c3', 'h2h4', 'e2e4', 'd2d4', 'c2c4']
+[2025-04-24 20:48:13] Stockfish played: c8e6
+[2025-04-24 20:48:13] Game 6, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['a3b5', 'a3c4', 'a3b1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1f1', 'c1b2', 'a1b1', 'e1g1', 'f3f4', 'b3b4', 'h2h3', 'e2e3', 'd2d3', 'c2c3', 'h2h4', 'e2e4', 'd2d4', 'c2c4']
+[2025-04-24 20:48:13] Stockfish played: g8h6
+[2025-04-24 20:48:13] Game 6, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 4), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['a3b5', 'a3c4', 'a3b1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b2', 'a1b1', 'e1g1', 'e4d5', 'e4e5', 'f3f4', 'b3b4', 'h2h3', 'd2d3', 'c2c3', 'h2h4', 'd2d4', 'c2c4']
+[2025-04-24 20:48:13] Stockfish played: d8d5
+[2025-04-24 20:48:13] Game 6, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (3, 1))
+[DEBUG] Legal moves according to python-chess: ['a3b5', 'a3c4', 'a3b1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b2', 'a1b1', 'e1g1', 'f3f4', 'b3b4', 'h2h3', 'd2d3', 'c2c3', 'h2h4', 'd2d4', 'c2c4']
+[2025-04-24 20:48:13] Stockfish played: d5b5
+[2025-04-24 20:48:13] Game 6, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (3, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['g2h3', 'g2f1', 'h1g1', 'h1f1', 'd1e2', 'c1a3', 'c1b2', 'a1b1', 'f3f4', 'b3b4', 'h2h3', 'd2d3', 'c2c3', 'a2a3', 'h2h4', 'd2d4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:13] Stockfish played: b5b4
+[2025-04-24 20:48:13] Game 6, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 1), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((4, 0), (5, 0))
+[DEBUG] ChessDove chose move: ((4, 0), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1a3', 'c1b2', 'a1a3', 'a1a2', 'a1b1', 'e1g1', 'a4a5', 'f3f4', 'h2h3', 'c2c3', 'h2h4', 'c2c4']
+[DEBUG] AI attempted illegal move: a4a3
+[DEBUG] Replaced with random legal move: g2h3
+[2025-04-24 20:48:13] Stockfish played: e6h3
+[2025-04-24 20:48:13] Game 6, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 4), (5, 7))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 5), (7, 5))
+[DEBUG] ChessDove chose move: ((6, 5), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['h1g1', 'h1f1', 'e1e2', 'd1e2', 'c1a3', 'c1b2', 'a1a3', 'a1a2', 'a1b1', 'a4a5', 'f3f4', 'c2c3', 'c2c4']
+[DEBUG] AI attempted illegal move: f2f1
+[DEBUG] Replaced with random legal move: c1b2
+[2025-04-24 20:48:13] Stockfish played: e8c8
+[2025-04-24 20:48:13] Game 6, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (0, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['b2g7', 'b2f6', 'b2e5', 'b2d4', 'b2c3', 'b2a3', 'b2c1', 'h1g1', 'h1f1', 'e1e2', 'd1e2', 'd1c1', 'd1b1', 'a1a3', 'a1a2', 'a1c1', 'a1b1', 'a4a5', 'f3f4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:13] Stockfish played: e7f6
+[2025-04-24 20:48:13] Game 6, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (3, 4))
+[DEBUG] Legal moves according to python-chess: ['b2f6', 'b2e5', 'b2d4', 'b2c3', 'b2a3', 'b2a1', 'h1g1', 'h1f1', 'e1e2', 'd1e2', 'c1b1', 'c1a1', 'a4a5', 'f3f4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:14] Stockfish played: h8e8
+[2025-04-24 20:48:14] Game 6, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 7), (0, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 0), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['h1g1', 'h1f1', 'e1e2', 'd1e2', 'c1b1', 'c1a1', 'a4a5', 'f3f4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:14] Stockfish played: c6e5
+[2025-04-24 20:48:14] Game 6, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 2), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (4, 2))
+[DEBUG] Legal moves according to python-chess: ['h1g1', 'h1f1', 'e1e2', 'd1e2', 'c1b1', 'c1a1', 'a5a6', 'f3f4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:14] Stockfish played: e5c6
+[2025-04-24 20:48:14] Game 6, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 4), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['d1e2']
+[2025-04-24 20:48:14] Stockfish played: e8e2
+[2025-04-24 20:48:14] Game 6, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (6, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['e1e2', 'e1d1']
+[2025-04-24 20:48:14] Stockfish played: e2e1
+[2025-04-24 20:48:14] Game 6, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((6, 4), (7, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 4))
+[DEBUG] Legal moves according to python-chess: ['d1c2', 'd1e1', 'h1e1']
+[2025-04-24 20:48:14] Stockfish played: d8d2
+[2025-04-24 20:48:14] Game 6 result: -1
+[2025-04-24 20:48:14] Current stats - Wins: 0, Draws: 0, Losses: 6
+[2025-04-24 20:48:14] Game 7/10
+[2025-04-24 20:48:14] Game 7, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 1), (5, 0))
+[DEBUG] ChessDove chose move: ((7, 1), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:14] Stockfish played: e7e5
+[2025-04-24 20:48:14] Game 7, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['a3b5', 'a3c4', 'a3b1', 'g1h3', 'g1f3', 'a1b1', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:14] Stockfish played: b8c6
+[2025-04-24 20:48:14] Game 7, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 1), (7, 1))
+[DEBUG] ChessDove chose move: ((6, 1), (7, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4']
+[DEBUG] AI attempted illegal move: b2b1
+[DEBUG] Replaced with random legal move: h2h4
+[2025-04-24 20:48:14] Stockfish played: a7a6
+[2025-04-24 20:48:14] Game 7, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 0), (2, 0))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 1), (7, 1))
+[DEBUG] ChessDove chose move: ((6, 1), (7, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3d4', 'f3h2', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1h3', 'h1h2', 'h1g1', 'a1b1', 'h4h5', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4']
+[DEBUG] AI attempted illegal move: b2b1
+[DEBUG] Replaced with random legal move: b2b3
+[2025-04-24 20:48:14] Stockfish played: d7d5
+[2025-04-24 20:48:14] Game 7, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (3, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3d4', 'f3h2', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1h3', 'h1h2', 'h1g1', 'c1b2', 'a1b1', 'h4h5', 'b3b4', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'g2g4', 'e2e4', 'd2d4', 'c2c4']
+[2025-04-24 20:48:15] Stockfish played: a6b5
+[2025-04-24 20:48:15] Game 7, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 0), (3, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (4, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3d4', 'f3h2', 'f3g1', 'h1h3', 'h1h2', 'h1g1', 'c1a3', 'c1b2', 'a1b1', 'h4h5', 'b3b4', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'a2a3', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:15] Stockfish played: e5e4
+[2025-04-24 20:48:15] Game 7, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 4), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h2', 'f3d2', 'f3g1', 'h1h3', 'h1h2', 'h1g1', 'e1d2', 'd1d3', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1a3', 'c1d2', 'c1b2', 'a1b1', 'h4h5', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'a2a3', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:15] Stockfish played: c8f5
+[2025-04-24 20:48:15] Game 7, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h2', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1h3', 'h1h2', 'h1g1', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'h4h5', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'a2a3', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:15] Stockfish played: f5d7
+[2025-04-24 20:48:15] Game 7, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h2', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1h3', 'h1h2', 'h1g1', 'c1b1', 'c1a1', 'h4h5', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'a2a3', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:15] Stockfish played: h7h5
+[2025-04-24 20:48:15] Game 7, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 7), (3, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 0), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h2', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1h3', 'h1h2', 'h1g1', 'c1b1', 'c1a1', 'a4b5', 'a4a5', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:15] Stockfish played: f8e7
+[2025-04-24 20:48:15] Game 7, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (1, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 2), (7, 0))
+[DEBUG] ChessDove chose move: ((7, 2), (7, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h2', 'f3g1', 'd2h6', 'd2g5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1h3', 'h1h2', 'h1g1', 'c1b1', 'c1a1', 'a5a6', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:15] Stockfish played: g8f6
+[2025-04-24 20:48:15] Game 7, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 0), (7, 2))
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h2', 'f3g1', 'd2h6', 'd2g5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1h3', 'h1h2', 'h1g1', 'd1c1', 'd1b1', 'a1a4', 'a1a3', 'a1a2', 'a1c1', 'a1b1', 'a5a6', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:15] Stockfish played: e4f3
+[2025-04-24 20:48:15] Game 7, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 6), (7, 6))
+[DEBUG] ChessDove chose move: ((6, 6), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['d2h6', 'd2g5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1h3', 'h1h2', 'h1g1', 'c1b1', 'c1a1', 'g2f3', 'e2f3', 'a5a6', 'b3b4', 'g2g3', 'e2e3', 'c2c3', 'g2g4', 'e2e4', 'c2c4']
+[DEBUG] AI attempted illegal move: g2g1
+[DEBUG] Replaced with random legal move: e2e3
+[2025-04-24 20:48:16] Stockfish played: a8a6
+[2025-04-24 20:48:16] Game 7, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 0), (2, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['d2b4', 'd2c3', 'h1h3', 'h1h2', 'h1g1', 'f1b5', 'f1c4', 'f1d3', 'f1e2', 'd1f3', 'd1e2', 'c1b1', 'c1a1', 'g2f3', 'e3e4', 'b3b4', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:16] Stockfish played: f3g2
+[2025-04-24 20:48:16] Game 7, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 5), (6, 6))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 5), (7, 5))
+[DEBUG] ChessDove chose move: ((6, 5), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['d3h7', 'd3g6', 'd3f5', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'd2b4', 'd2c3', 'h1h3', 'h1h2', 'h1g1', 'h1f1', 'e1e2', 'd1h5', 'd1g4', 'd1f3', 'd1e2', 'c1b1', 'c1a1', 'e3e4', 'b3b4', 'f2f3', 'c2c3', 'f2f4', 'c2c4']
+[DEBUG] AI attempted illegal move: f2f1
+[DEBUG] Replaced with random legal move: d1g4
+[2025-04-24 20:48:16] Stockfish played: g2h1n
+[2025-04-24 20:48:16] Game 7, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((6, 6), (7, 7))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((4, 6), (7, 6))
+[DEBUG] ChessDove chose move: ((4, 6), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['g4g7', 'g4d7', 'g4g6', 'g4e6', 'g4h5', 'g4g5', 'g4f5', 'g4f4', 'g4e4', 'g4h3', 'g4g3', 'g4f3', 'g4g2', 'g4e2', 'g4g1', 'g4d1', 'd3h7', 'd3g6', 'd3f5', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'd2b4', 'd2c3', 'e1e2', 'e1f1', 'e1d1', 'c1d1', 'c1b1', 'c1a1', 'e3e4', 'b3b4', 'f2f3', 'c2c3', 'f2f4', 'c2c4']
+[2025-04-24 20:48:16] Stockfish played: c6a5
+[2025-04-24 20:48:16] Game 7, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 2), (3, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (2, 6))
+[DEBUG] Legal moves according to python-chess: ['d3h7', 'd3g6', 'd3f5', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'd2a5', 'd2b4', 'd2c3', 'g1g7', 'g1g6', 'g1g5', 'g1g4', 'g1g3', 'g1h2', 'g1g2', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'e1d1', 'c1d1', 'c1b1', 'c1a1', 'e3e4', 'b3b4', 'f2f3', 'c2c3', 'f2f4', 'c2c4']
+[2025-04-24 20:48:16] Stockfish played: h1f2
+[2025-04-24 20:48:16] Game 7, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((7, 7), (6, 5))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 2), (7, 1))
+[DEBUG] ChessDove chose move: ((7, 2), (7, 1))
+[DEBUG] Legal moves according to python-chess: ['g6h7', 'g6g7', 'g6f7', 'g6h6', 'g6f6', 'g6h5', 'g6g5', 'g6f5', 'g6g4', 'g6e4', 'g6g3', 'g6g2', 'g6g1', 'd3f5', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'd2a5', 'd2b4', 'd2c3', 'e1f2', 'e1e2', 'e1f1', 'c1d1', 'c1b1', 'c1a1', 'e3e4', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:16] Stockfish played: f2e4
+[2025-04-24 20:48:16] Game 7, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((6, 5), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((2, 6), (1, 5))
+[DEBUG] Legal moves according to python-chess: ['g6h7', 'g6g7', 'g6f7', 'g6h6', 'g6f6', 'g6h5', 'g6g5', 'g6f5', 'g6g4', 'g6e4', 'g6g3', 'g6g2', 'g6g1', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'd2a5', 'd2b4', 'd2c3', 'd2c1', 'e1e2', 'e1f1', 'e1d1', 'b1b2', 'b1d1', 'b1c1', 'b1a1', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:16] Stockfish played: e8f7
+[2025-04-24 20:48:16] Game 7, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (1, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['d3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'd2a5', 'd2b4', 'd2c3', 'd2c1', 'e1e2', 'e1f1', 'e1d1', 'b1b2', 'b1d1', 'b1c1', 'b1a1', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:16] Stockfish played: f7f8
+[2025-04-24 20:48:16] Game 7, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 5), (0, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['a5c7', 'a5b6', 'a5b4', 'a5c3', 'a5d2', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'e1e2', 'e1f1', 'e1d1', 'b1b2', 'b1d1', 'b1c1', 'b1a1', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: h8h6
+[2025-04-24 20:48:17] Game 7, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 7), (2, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 3), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['a5c7', 'a5b6', 'a5b4', 'a5c3', 'a5d2', 'd3b5', 'd3e4', 'd3c4', 'd3e2', 'd3f1', 'e1e2', 'e1f1', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: a6d6
+[2025-04-24 20:48:17] Game 7, Move 23
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 0), (2, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 0), (2, 1))
+[DEBUG] Legal moves according to python-chess: ['a5c7', 'a5b6', 'a5b4', 'a5c3', 'a5d2', 'e4h7', 'e4g6', 'e4f5', 'e4d5', 'e4f3', 'e4d3', 'e4g2', 'e4h1', 'e1f2', 'e1e2', 'e1d2', 'e1f1', 'd1d3', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: d6b6
+[2025-04-24 20:48:17] Game 7, Move 24
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 3), (2, 1))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((4, 4), (3, 3))
+[DEBUG] ChessDove chose move: ((4, 4), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['e4h7', 'e4g6', 'e4f5', 'e4d5', 'e4f3', 'e4d3', 'e4g2', 'e4h1', 'e1f2', 'e1e2', 'e1d2', 'e1f1', 'd1d3', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: d8c8
+[2025-04-24 20:48:17] Game 7, Move 25
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (0, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (6, 5))
+[DEBUG] Legal moves according to python-chess: ['d5g8', 'd5f7', 'd5b7', 'd5e6', 'd5c6', 'd5e4', 'd5c4', 'd5f3', 'd5g2', 'd5h1', 'e1f2', 'e1e2', 'e1d2', 'e1f1', 'd1d3', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'e3e4', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: f6d5
+[2025-04-24 20:48:17] Game 7, Move 26
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['f2g3', 'f2f3', 'f2g2', 'f2e2', 'f2g1', 'f2f1', 'f2e1', 'd1d3', 'd1d2', 'd1h1', 'd1g1', 'd1f1', 'd1e1', 'd1c1', 'd1b1', 'd1a1', 'e3e4', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: d7g4
+[2025-04-24 20:48:17] Game 7, Move 27
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (4, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['d3c3', 'd3d2', 'd3d1', 'f2g3', 'f2g2', 'f2g1', 'f2f1', 'f2e1', 'e3e4', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: b6d6
+[2025-04-24 20:48:17] Game 7, Move 28
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 1), (2, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 3), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['d3h3', 'd3g3', 'd3f3', 'd3e3', 'd3c3', 'd3d2', 'd3d1', 'f2g3', 'f2g2', 'f2g1', 'f2f1', 'f2e1', 'e4d5', 'e4e5', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: g4f3
+[2025-04-24 20:48:17] Game 7, Move 29
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 6), (5, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 5), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['f2g3', 'f2f3', 'f2g1', 'f2f1', 'f2e1', 'e4d5', 'e4e5', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:17] Stockfish played: c8g4
+[2025-04-24 20:48:17] Game 7, Move 30
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (4, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (6, 5))
+[DEBUG] Legal moves according to python-chess: ['f3f2']
+[2025-04-24 20:48:18] Stockfish played: d6f6
+[2025-04-24 20:48:18] Game 7, Move 31
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 3), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 5), (7, 4))
+[DEBUG] Legal moves according to python-chess: ['f2e1']
+[2025-04-24 20:48:18] Stockfish played: g4g2
+[2025-04-24 20:48:18] Game 7, Move 32
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 6), (6, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (4, 2))
+[DEBUG] Legal moves according to python-chess: ['e1d1', 'e4d5', 'e4e5', 'b3b4', 'c2c3', 'c2c4']
+[2025-04-24 20:48:18] Stockfish played: f6f1
+[2025-04-24 20:48:18] Game 7 result: -1
+[2025-04-24 20:48:18] Current stats - Wins: 0, Draws: 0, Losses: 7
+[2025-04-24 20:48:18] Game 8/10
+[2025-04-24 20:48:18] Game 8, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:18] Stockfish played: g8f6
+[2025-04-24 20:48:18] Game 8, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:18] Stockfish played: e7e6
+[2025-04-24 20:48:18] Game 8, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (3, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:18] Stockfish played: c7c5
+[2025-04-24 20:48:18] Game 8, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 2), (3, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['b5c7', 'b5a7', 'b5d6', 'b5d4', 'b5c3', 'b5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:18] Stockfish played: a7a6
+[2025-04-24 20:48:18] Game 8, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 0), (2, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['b5c7', 'b5a7', 'b5d6', 'b5d4', 'b5c3', 'b5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:18] Stockfish played: a6b5
+[2025-04-24 20:48:18] Game 8, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 0), (3, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:18] Stockfish played: f8e7
+[2025-04-24 20:48:18] Game 8, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (1, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 3), (6, 3))
+[DEBUG] ChessDove chose move: ((5, 3), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[DEBUG] AI attempted illegal move: d3d2
+[DEBUG] Replaced with random legal move: g2g3
+[2025-04-24 20:48:18] Stockfish played: f6g4
+[2025-04-24 20:48:18] Game 8, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (4, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'h1g1', 'f1h3', 'f1g2', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: d7d5
+[2025-04-24 20:48:19] Game 8, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (3, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3h6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'd3d4', 'h2h3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: e7c5
+[2025-04-24 20:48:19] Game 8, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (3, 2))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 3), (6, 3))
+[DEBUG] ChessDove chose move: ((7, 3), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'd3d4', 'h2h3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: c5f2
+[2025-04-24 20:48:19] Game 8, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 2), (6, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 4), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'e1d1']
+[2025-04-24 20:48:19] Stockfish played: b8c6
+[2025-04-24 20:48:19] Game 8, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'f3e1', 'g2h3', 'g2f1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2e1', 'h1g1', 'h1f1', 'h1e1', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: d8a5
+[2025-04-24 20:48:19] Game 8, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'f3e1', 'g2h3', 'g2f1', 'h1g1', 'h1f1', 'h1e1', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: g4e3
+[2025-04-24 20:48:19] Game 8 result: -1
+[2025-04-24 20:48:19] Current stats - Wins: 0, Draws: 0, Losses: 8
+[2025-04-24 20:48:19] Game 9/10
+[2025-04-24 20:48:19] Game 9, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: d7d5
+[2025-04-24 20:48:19] Game 9, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:19] Stockfish played: c8f5
+[2025-04-24 20:48:19] Game 9, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 2), (3, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'c3d5', 'c3b5', 'c3e4', 'c3a4', 'c3b1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: d8d5
+[2025-04-24 20:48:20] Game 9, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: d5d7
+[2025-04-24 20:48:20] Game 9, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (5, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: e7e6
+[2025-04-24 20:48:20] Game 9, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 4), (3, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e3a7', 'e3h6', 'e3b6', 'e3g5', 'e3c5', 'e3f4', 'e3d4', 'e3d2', 'e3c1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: f8d6
+[2025-04-24 20:48:20] Game 9, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (2, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['c5a7', 'c5d6', 'c5b6', 'c5d4', 'c5b4', 'c5e3', 'c5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: g8f6
+[2025-04-24 20:48:20] Game 9, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['c5a7', 'c5d6', 'c5b6', 'c5d4', 'c5b4', 'c5e3', 'c5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: f5e4
+[2025-04-24 20:48:20] Game 9, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['c5a7', 'c5d6', 'c5b6', 'c5d4', 'c5b4', 'c5e3', 'c5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'h1g1', 'f1e2', 'e1e2', 'e1d2', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'd3e4', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: d6c5
+[2025-04-24 20:48:20] Game 9, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 3), (3, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'd3e4', 'd3d4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:20] Stockfish played: e4g6
+[2025-04-24 20:48:20] Game 9, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (2, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'f3g1', 'e2f1', 'h1g1', 'h1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'e1g1', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:21] Stockfish played: b8c6
+[2025-04-24 20:48:21] Game 9, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:21] Stockfish played: h7h5
+[2025-04-24 20:48:21] Game 9, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 7), (3, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'd3d4', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:21] Stockfish played: d7e7
+[2025-04-24 20:48:21] Game 9, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (1, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'c1b1', 'c1a1', 'a4a5', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:21] Stockfish played: f6d5
+[2025-04-24 20:48:21] Game 9, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (6, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'd1c2', 'c1c2', 'c1b1', 'c1a1', 'a4a5', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:21] Stockfish played: c5d6
+[2025-04-24 20:48:21] Game 9, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 2), (2, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (6, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'c2d2', 'c2b2', 'c2a2', 'c2c1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'd1c1', 'd1b1', 'd1a1', 'a4a5', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:21] Stockfish played: a7a5
+[2025-04-24 20:48:21] Game 9, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 0), (3, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'b2d2', 'b2c2', 'b2a2', 'b2b1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:21] Stockfish played: g6f5
+[2025-04-24 20:48:21] Game 9, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 6), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (6, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'e2f1', 'd2c2', 'd2b2', 'd2a2', 'g1h1', 'g1f1', 'e1f1', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3d4', 'c3c4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:21] Stockfish played: d5c3
+[2025-04-24 20:48:21] Game 9, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 3), (5, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 6), (5, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'b2d2', 'b2c2', 'b2a2', 'b2b1', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'd1d2', 'd1c2', 'd1c1', 'd1b1', 'd1a1', 'd3d4', 'b3b4', 'h2h3', 'g2g3', 'h2h4', 'g2g4']
+[2025-04-24 20:48:21] Stockfish played: c3d1
+[2025-04-24 20:48:21] Game 9, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 2), (7, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'e2f1', 'e2d1', 'b2d2', 'b2c2', 'b2a2', 'b2b1', 'g1g2', 'g1h1', 'g1f1', 'e1d2', 'e1f1', 'e1d1', 'g3g4', 'd3d4', 'b3b4', 'h2h3', 'h2h4']
+[2025-04-24 20:48:22] Stockfish played: f5d3
+[2025-04-24 20:48:22] Game 9, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (5, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3d2', 'b2e2', 'b2d2', 'b2c2', 'b2a2', 'b2b1', 'g1g2', 'g1h1', 'g1f1', 'e1d2', 'd1e2', 'd1c2', 'g3g4', 'b3b4', 'h2h3', 'h2h4']
+[2025-04-24 20:48:22] Stockfish played: d6b4
+[2025-04-24 20:48:22] Game 9, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 3), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 6), (4, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'g1g2', 'g1h1', 'g1f1', 'd1e2', 'd1c2', 'g3g4', 'h2h3', 'h2h4']
+[2025-04-24 20:48:22] Stockfish played: h5h4
+[2025-04-24 20:48:22] Game 9, Move 23
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 7), (4, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 6), (3, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'g1g3', 'g1g2', 'g1h1', 'g1f1', 'd1e2', 'd1c2', 'g4g5', 'h2h3']
+[2025-04-24 20:48:22] Stockfish played: h4h3
+[2025-04-24 20:48:22] Game 9, Move 24
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 7), (5, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 6), (2, 6))
+[DEBUG] Legal moves according to python-chess: ['f3e5', 'f3h4', 'f3d4', 'g1g4', 'g1g3', 'g1g2', 'g1h1', 'g1f1', 'd1e2', 'd1c2', 'g5g6']
+[2025-04-24 20:48:22] Stockfish played: d3g6
+[2025-04-24 20:48:22] Game 9, Move 25
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 3), (2, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'g1g6', 'g1g5', 'g1g4', 'g1g3', 'g1g2', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'd1c2']
+[2025-04-24 20:48:22] Stockfish played: g6e4
+[2025-04-24 20:48:22] Game 9, Move 26
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 6), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1c2']
+[2025-04-24 20:48:22] Stockfish played: e7f6
+[2025-04-24 20:48:22] Game 9, Move 27
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (2, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'g1g7', 'g1g6', 'g1g5', 'g1g4', 'g1g3', 'g1g2', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'd1c2']
+[2025-04-24 20:48:22] Stockfish played: e4g6
+[2025-04-24 20:48:22] Game 9, Move 28
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (2, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 5), (3, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'e1e2', 'e1f1', 'd1e2', 'd1c2']
+[2025-04-24 20:48:23] Stockfish played: f6e5
+[2025-04-24 20:48:23] Game 9, Move 29
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 5), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 4), (7, 5))
+[DEBUG] ChessDove chose move: ((7, 4), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['e1f1', 'd1e2']
+[2025-04-24 20:48:23] Stockfish played: b4d2
+[2025-04-24 20:48:23] Game 9, Move 30
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 1), (6, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['f1g1', 'd1h5', 'd1g4', 'd1f3', 'd1e2', 'd1c2', 'b3b4', 'f2f3', 'f2f4']
+[2025-04-24 20:48:23] Stockfish played: e5a1
+[2025-04-24 20:48:23] Game 9, Move 31
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 4), (7, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (6, 4))
+[DEBUG] Legal moves according to python-chess: ['f1e2', 'f3d1']
+[2025-04-24 20:48:23] Stockfish played: a1e1
+[2025-04-24 20:48:23] Game 9 result: -1
+[2025-04-24 20:48:23] Current stats - Wins: 0, Draws: 0, Losses: 9
+[2025-04-24 20:48:23] Game 10/10
+[2025-04-24 20:48:23] Game 10, Move 1
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: None
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['g1h3', 'g1f3', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'f2f3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'f2f4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:23] Stockfish played: d7d5
+[2025-04-24 20:48:23] Game 10, Move 2
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 3), (3, 3))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 6), (7, 6))
+[DEBUG] ChessDove chose move: ((6, 6), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'b1c3', 'b1a3', 'h2h3', 'g2g3', 'e2e3', 'd2d3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'd2d4', 'c2c4', 'b2b4', 'a2a4']
+[DEBUG] AI attempted illegal move: g2g1
+[DEBUG] Replaced with random legal move: d2d4
+[2025-04-24 20:48:23] Stockfish played: c8f5
+[2025-04-24 20:48:23] Game 10, Move 3
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 2), (3, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d3', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'b1c3', 'b1a3', 'b1d2', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:23] Stockfish played: e7e6
+[2025-04-24 20:48:23] Game 10, Move 4
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 4), (2, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (3, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'a3b5', 'a3c4', 'a3b1', 'h1g1', 'e1d2', 'd1d3', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4']
+[2025-04-24 20:48:23] Stockfish played: a7a6
+[2025-04-24 20:48:23] Game 10, Move 5
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 0), (2, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 2), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['b5c7', 'b5a7', 'b5d6', 'b5c3', 'b5a3', 'f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'e1d2', 'd1d3', 'd1d2', 'c1h6', 'c1g5', 'c1f4', 'c1e3', 'c1d2', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:23] Stockfish played: a6b5
+[2025-04-24 20:48:23] Game 10, Move 6
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 0), (3, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 1), (5, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'b2b3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'b2b4', 'a2a4']
+[2025-04-24 20:48:24] Stockfish played: b8d7
+[2025-04-24 20:48:24] Game 10, Move 7
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 1), (1, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (4, 4))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'b3b4', 'h2h3', 'g2g3', 'e2e3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'e2e4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:24] Stockfish played: f5e4
+[2025-04-24 20:48:24] Game 10, Move 8
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 5), (4, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 2), (7, 2))
+[DEBUG] ChessDove chose move: ((6, 2), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'f1b5', 'f1c4', 'f1d3', 'f1e2', 'e1e2', 'd1e2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[DEBUG] AI attempted illegal move: c2c1
+[DEBUG] Replaced with random legal move: f1e2
+[2025-04-24 20:48:24] Stockfish played: f8d6
+[2025-04-24 20:48:24] Game 10, Move 9
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (2, 3))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (3, 1))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3g1', 'e2b5', 'e2c4', 'e2d3', 'e2f1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'h1f1', 'e1f1', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e1g1', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:24] Stockfish played: h7h5
+[2025-04-24 20:48:24] Game 10, Move 10
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 7), (3, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 0), (7, 2))
+[DEBUG] Legal moves according to python-chess: ['b5d7', 'b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'd2c1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'd1c1', 'd1b1', 'a1c1', 'a1b1', 'e1g1', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:24] Stockfish played: g8f6
+[2025-04-24 20:48:24] Game 10, Move 11
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 6), (2, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 0), (5, 0))
+[DEBUG] Legal moves according to python-chess: ['b5d7', 'b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'e1g1', 'b3b4', 'h2h3', 'g2g3', 'c2c3', 'a2a3', 'h2h4', 'g2g4', 'c2c4', 'a2a4']
+[2025-04-24 20:48:24] Stockfish played: e8f8
+[2025-04-24 20:48:24] Game 10, Move 12
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 4), (0, 5))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['b5d7', 'b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'e1g1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:24] Stockfish played: c7c6
+[2025-04-24 20:48:24] Game 10, Move 13
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 2), (2, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:24] Stockfish played: f8g8
+[2025-04-24 20:48:24] Game 10, Move 14
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 5), (0, 6))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: d8c7
+[2025-04-24 20:48:25] Game 10, Move 15
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 3), (1, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 6), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'h2h4', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: h5h4
+[2025-04-24 20:48:25] Game 10, Move 16
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 7), (4, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 7), (7, 6))
+[DEBUG] Legal moves according to python-chess: ['b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: h8h7
+[2025-04-24 20:48:25] Game 10, Move 17
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 7), (1, 7))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 7), (7, 7))
+[DEBUG] ChessDove chose move: ((6, 7), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'b5e2', 'b5f1', 'f3g5', 'f3e5', 'f3h4', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[DEBUG] AI attempted illegal move: h2h1
+[DEBUG] Replaced with random legal move: d1e2
+[2025-04-24 20:48:25] Stockfish played: h7h5
+[2025-04-24 20:48:25] Game 10, Move 18
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 7), (3, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 4), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['b5c6', 'b5a6', 'b5c4', 'b5a4', 'b5d3', 'f3g5', 'f3e5', 'f3h4', 'e2e4', 'e2c4', 'e2e3', 'e2d3', 'e2f1', 'e2d1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'g1h1', 'g1f1', 'e1f1', 'e1d1', 'c1d1', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: c6b5
+[2025-04-24 20:48:25] Game 10, Move 19
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 2), (3, 1))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 6), (7, 5))
+[DEBUG] ChessDove chose move: ((7, 6), (7, 5))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'g1h1', 'g1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: e4h7
+[2025-04-24 20:48:25] Game 10, Move 20
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 4), (1, 7))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 5), (7, 7))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'f1h1', 'f1g1', 'e1e2', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: a8e8
+[2025-04-24 20:48:25] Game 10, Move 21
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 0), (0, 4))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((6, 3), (3, 0))
+[DEBUG] ChessDove chose move: ((6, 3), (3, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3g1', 'd2h6', 'd2g5', 'd2a5', 'd2f4', 'd2b4', 'd2e3', 'd2c3', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1e2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:25] Stockfish played: c7a5
+[2025-04-24 20:48:25] Game 10, Move 22
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 2), (3, 0))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((5, 5), (6, 3))
+[DEBUG] ChessDove chose move: ((5, 5), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['e1e2', 'e1f1', 'f3d2', 'd1d2', 'b3b4', 'c2c3']
+[2025-04-24 20:48:26] Stockfish played: b5b4
+[2025-04-24 20:48:26] Game 10, Move 23
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 1), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 3), (5, 5))
+[DEBUG] Legal moves according to python-chess: ['d2e4', 'd2c4', 'd2f3', 'd2f1', 'd2b1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1h5', 'd1g4', 'd1f3', 'd1e2', 'c1b1', 'c1a1', 'a3b4', 'a3a4', 'h2h3', 'g2g3', 'f2f3', 'c2c3', 'g2g4', 'f2f4', 'c2c4']
+[2025-04-24 20:48:26] Stockfish played: a5a6
+[2025-04-24 20:48:26] Game 10, Move 24
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 0), (2, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((6, 2), (5, 2))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'h1f1', 'e1d2', 'd1d3', 'd1e2', 'd1d2', 'c1b1', 'c1a1', 'a3b4', 'a3a4', 'h2h3', 'g2g3', 'c2c3', 'g2g4', 'c2c4']
+[2025-04-24 20:48:26] Stockfish played: b4c3
+[2025-04-24 20:48:26] Game 10, Move 25
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((4, 1), (5, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((5, 0), (4, 0))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'h1f1', 'd1d3', 'd1e2', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'b3b4', 'a3a4', 'h2h3', 'g2g3', 'g2g4']
+[2025-04-24 20:48:26] Stockfish played: a6a8
+[2025-04-24 20:48:26] Game 10, Move 26
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 0), (0, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (5, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'h1f1', 'e1e2', 'e1f1', 'd1d3', 'd1e2', 'd1d2', 'd1c2', 'c1c3', 'c1c2', 'c1b1', 'c1a1', 'a4a5', 'b3b4', 'h2h3', 'g2g3', 'g2g4']
+[2025-04-24 20:48:26] Stockfish played: h7d3
+[2025-04-24 20:48:26] Game 10, Move 27
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((1, 7), (5, 3))
+Loaded pre-trained evaluator model
+[DEBUG] Random move selected: ((7, 4), (6, 3))
+[DEBUG] ChessDove chose move: ((7, 4), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'h1f1', 'e1d1', 'c1c3', 'c1c2', 'c1d1', 'c1b1', 'c1a1', 'a4a5', 'b3b4', 'h2h3', 'g2g3', 'g2g4']
+[DEBUG] AI attempted illegal move: e1d2
+[DEBUG] Replaced with random legal move: c1b1
+[2025-04-24 20:48:26] Stockfish played: a8a5
+[2025-04-24 20:48:26] Game 10, Move 28
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((0, 0), (3, 0))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 1), (7, 3))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3e5', 'f3h4', 'f3d2', 'f3g1', 'h1g1', 'h1f1', 'e1d1', 'b1b2', 'b1d1', 'b1c1', 'b1a1', 'b3b4', 'h2h3', 'g2g3', 'g2g4']
+[2025-04-24 20:48:26] Stockfish played: c3c2
+[2025-04-24 20:48:26] Game 10, Move 29
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((5, 2), (6, 2))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((7, 3), (6, 3))
+[DEBUG] Legal moves according to python-chess: ['f3d2', 'd1d2', 'b3b4']
+[2025-04-24 20:48:26] Stockfish played: h5e5
+[2025-04-24 20:48:26] Game 10, Move 30
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((3, 7), (3, 4))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((4, 3), (3, 4))
+[DEBUG] Legal moves according to python-chess: ['f3e5', 'd4e5']
+[2025-04-24 20:48:26] Stockfish played: d6b4
+[2025-04-24 20:48:26] Game 10, Move 31
+[DEBUG] Calling choose_best_move with depth=1
+[DEBUG] Position shape: torch.Size([8, 8]), Last move: ((2, 3), (4, 1))
+Loaded pre-trained evaluator model
+[DEBUG] ChessDove chose move: ((3, 4), (2, 5))
+[DEBUG] Legal moves according to python-chess: ['f3g5', 'f3h4', 'f3d4', 'f3g1', 'h1g1', 'h1f1', 'e5f6', 'h2h3', 'g2g3', 'g2g4']
+[2025-04-24 20:48:26] Stockfish played: c2c1q
+[2025-04-24 20:48:26] Game 10 result: -1
+[2025-04-24 20:48:26] Current stats - Wins: 0, Draws: 0, Losses: 10
+[2025-04-24 20:48:26] Saved 254 training examples to training_data
+[2025-04-24 20:48:26] States saved to: training_data\states_20250424_204826_game10.pt
+[2025-04-24 20:48:26] Values saved to: training_data\values_20250424_204826_game10.pt
+[2025-04-24 20:48:26] Data collection complete. Final stats: {'wins': 0, 'draws': 0, 'losses': 10}
+[2025-04-24 20:48:26] Saved 254 training examples to training_data
+[2025-04-24 20:48:26] States saved to: training_data\states_20250424_204826_game10.pt
+[2025-04-24 20:48:26] Values saved to: training_data\values_20250424_204826_game10.pt
+[2025-04-24 20:48:26] All training data saved to training_data

@@ -1,0 +1,5 @@
+usage: evaluate_elo.py [-h] [--stockfish-path STOCKFISH_PATH]
+[--num-games NUM_GAMES]
+[--stockfish-depth STOCKFISH_DEPTH]
+[--time-limit TIME_LIMIT]
+evaluate_elo.py: error: unrecognized arguments: tuệ nhân tạo\chess project\stockfish\stockfish.exe
