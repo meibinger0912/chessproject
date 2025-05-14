@@ -15,10 +15,11 @@ D:/Trí tuệ nhân tạo/chess project/
 └── ChessDove/         # Custom developed chess AI
     ├── ChessDove.py   # Main class for the custom AI
     ├── ComputingAI.py # Calculate board evaluation and assist in making moves       
-    ├── evaluator.py   # Position evaluation model
+    ├── evaluator.py   # neural network
     ├── current_elo.txt # File storing current AI Elo
     ├── config.txt     # Configuration for ChessDove
     └── watch_ai_battle.py # Mode for watching AI vs AI battles
+    └── evaluate_elo.py    # Đánh giá điểm Elo của AI
 link tải AI:
     tải stockfish: https://stockfishchess.org/download/
     tải chessdove: https://drive.google.com/drive/folders/1Ih4kb9neKxhtTZBh43zYhwY_iOJg8lkF?usp=drive_link
