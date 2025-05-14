@@ -22,3 +22,5 @@ D:/Trí tuệ nhân tạo/chess project/
 link tải AI:
     tải stockfish: https://stockfishchess.org/download/
     tải chessdove: https://drive.google.com/drive/folders/1Ih4kb9neKxhtTZBh43zYhwY_iOJg8lkF?usp=drive_link
+    file drive toàn bộ chương trình:
+    https://drive.google.com/drive/folders/1IOJsiKA1regz-Ze3X8S-6K6cXum3ZwAf?usp=sharing
