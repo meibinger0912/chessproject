@@ -14,6 +14,7 @@ D:/Trí tuệ nhân tạo/chess project/
 │   └── stockfish.exe
 └── ChessDove/         # Custom developed chess AI
     ├── ChessDove.py   # Main class for the custom AI
+    ├── ComputingAI.py # Calculate board evaluation and assist in making moves       
     ├── evaluator.py   # Position evaluation model
     ├── current_elo.txt # File storing current AI Elo
     ├── config.txt     # Configuration for ChessDove
