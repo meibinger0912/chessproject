@@ -1,25 +1,28 @@
 D:/Trí tuệ nhân tạo/chess project/
-├── main.py            # Main entry point, coordinates the game flow
-├── graphic.py         # Common graphics utilities, dimensions and images
-├── gui.py             # User interface for Stockfish mode
-├── guix.py            # User interface for ChessDove mode
-├── chess_logic.py     # Game logic handling, interaction with AI engines
-├── chess_clock.py     # Manages time tracking during games
-├── assets/            # Directory containing chess piece and board images
+Chess project/
+├── main.py      # Điểm vào chính, quản lý menu và điều hướng
+├── graphic.py  # Xử lý độ họa chung và các hàm vẽ
+├── gui.py         # Giao diện khi người chơi đấu với Stockfish
+├── guix.py       # Giao diện khi người chơi đấu với module AI 
+├── chess_logic.py  # Logic cờ vua
+├── chess_clock.py  # Đồng hồ đếm thời gian
+├── assets/         # Thư mục chứa ảnh ô bàn cờ, quân cờ,…
 │   ├── board.png
 │   ├── white_pawn.png
 │   ├── black_pawn.png
 │   └── ... (other chess piece images)
-├── stockfish/         # Stockfish chess engine
+├── stockfish/         # Stockfish chess engine download trên mạng 
 │   └── stockfish.exe
-└── ChessDove/         # Custom developed chess AI
-    ├── ChessDove.py   # Main class for the custom AI
-    ├── ComputingAI.py # Calculate board evaluation and assist in making moves       
-    ├── evaluator.py   # neural network
-    ├── current_elo.txt # File storing current AI Elo
-    ├── config.txt     # Configuration for ChessDove
-    └── watch_ai_battle.py # Mode for watching AI vs AI battles
-    └── evaluate_elo.py    # Đánh giá điểm Elo của AI
+└── ChessDove/     # Thư mục chứa mã nguồn AI tự phát triển  
+    ├── ChessDove.py          # Module AI chính
+    ├── ComputingAI.py      # Đánh giá vị trí các quân cờ
+    ├── play_vs_stockfish.py   # Đấu cùng stockfish để lấy dữ liệu huấn luyện 
+    ├── train_evaluator.py    # Huấn luyện mạng neural
+    ├── evaluator.py             # Neural network
+    ├── GamePlay.py           # Self-play và học tăng cường
+    ├── watch_ai_battle.py  # Giao diện xem AI đấu với nhau
+    └── evaluate_elo.py       # Đánh giá điểm Elo của AI
+
 link tải AI:
     tải stockfish: https://stockfishchess.org/download/
     tải chessdove: https://drive.google.com/drive/folders/1Ih4kb9neKxhtTZBh43zYhwY_iOJg8lkF?usp=drive_link
